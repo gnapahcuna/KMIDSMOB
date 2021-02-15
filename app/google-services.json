@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "967235785574",
+    "project_id": "kmids-27db7",
+    "storage_bucket": "kmids-27db7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967235785574:android:a357246c2f3b2f22d32ea7",
+        "android_client_info": {
+          "package_name": "com.paiwaddev.kmids.kmidsmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967235785574-b1taab3b19l5amvfbh165j901otk8igj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSnUE9Pfz8skM0yCAZ6ZQh2Gxuc7z2iWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967235785574-b1taab3b19l5amvfbh165j901otk8igj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

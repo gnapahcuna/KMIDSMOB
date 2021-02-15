@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">KMIDS Mobile</string>
+    <string name="text_version">เวอร์ชั่น 1.1.10</string>
+
+    <string name="channel_id">status01</string>
+    <string name="channel_name">statust_bus</string>
+    <string name="channel_decription">statust_bus_notifications</string>
+
+    <string name="title_notification_message">สถานะรถโรงเรียนมีการเปลี่ยนแปลง</string>
+
+    <string name="finger_title">เข้าใช้งาน KMIDS Mobile</string>
+    <string name="finger_sub_title">สแกนเพื่อเข้าใช้งาน หรือยกเลิกเพื่อใส่รหัสผ่าน</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">หน้าแรก</string>
+    <string name="title_bus">รถโรงเรียน</string>
+    <string name="title_dashboard">ตั้งค่า</string>
+    <string name="title_notifications">ออกจากระบบ</string>
+    <string name="title_confirm_logout">กดอีกครั้งเพื่อปิดแอพฯ</string>
+
+    <string name="title_exite">ปิดแอพ</string>
+
+    <!-- Welcome -->
+    <string name="text_title_welcome">ลงทะเบียนเข้าใช้งานระบบ</string>
+    <string name="text_sub_title_welcome">กรุณากรอกข้อมูล</string>
+
+    <!-- Setting Pin -->
+    <string name="text_title_input_pin">สร้างรหัสผ่านใหม่</string>
+    <string name="text_title_input_pin2">ยืนยันรหัสผ่านใหม่</string>
+    <string name="text_check_match_pin">รหัสผ่านไม่ตรงกัน</string>
+    <string name="text_msg_create_pin_success">สร้างรหัสผ่านสำเร็จ</string>
+
+    <!-- Lock Pin -->
+    <string name="text_title_lock_pin">กรุณาใส่รหัสผ่าน</string>
+    <string name="text_error_lock_pin">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="text_ok_button">ตกลง</string>
+    <string name="text_cancel_button">ยกเลิก</string>
+    <string name="text_forgot_pass">ลืมรหัสผ่าน</string>
+
+    <!-- Home -->
+    <string name="text_home_title">รายชื่อนักเรียน</string>
+    <string name="text_alert_message">ยืนยันการรับนักเรียนเรียบร้อย</string>
+    <string name="text_button_accept">ยืนยันการมาถึง</string>
+    <string name="text_error_area">ตำแหน่งของคุณไม่อยู่ใน Area ที่กำหนด</string>
+
+    <string name="text_change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="text_on_touch_id">เข้าใช้งานผ่าน Touch ID</string>
+
+    <string name="text_input_phoneorcardid">กรอกเลขบัตรประชาชน/เบอร์โทรศัพท์</string>
+    <string name="text_next">ถัดไป</string>
+
+    <string name="message_subscribe_failed">Failed to subscribe to topic</string>
+    <string name="message_subscribed">Subscribed to topic</string>
+</resources>

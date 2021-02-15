@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.LockScreenActivity">
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:padding="8dp"
+        android:rowCount="5"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/pass1"
+                style="@style/PassPinTheme" />
+
+            <View
+                android:id="@+id/pass2"
+                style="@style/PassPinTheme" />
+
+            <View
+                android:id="@+id/pass3"
+                style="@style/PassPinTheme" />
+
+            <View
+                android:id="@+id/pass4"
+                style="@style/PassPinTheme" />
+
+        </TableRow>
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:padding="8dp"
+        android:rowCount="3"
+        app:layout_constraintBottom_toTopOf="@+id/btn_forgot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/pin1"
+                style="@style/PinTheme"
+                android:text="1"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+            <Button
+                android:id="@+id/pin2"
+                style="@style/PinTheme"
+                android:text="2"
+                tools:layout_editor_absoluteX="211dp"
+                tools:layout_editor_absoluteY="478dp" />
+
+            <Button
+                android:id="@+id/pin3"
+                style="@style/PinTheme"
+                android:text="3"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="218dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/pin4"
+                style="@style/PinTheme"
+                android:text="4"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+            <Button
+                android:id="@+id/pin5"
+                style="@style/PinTheme"
+                android:text="5"
+                tools:layout_editor_absoluteX="211dp"
+                tools:layout_editor_absoluteY="478dp" />
+
+            <Button
+                android:id="@+id/pin6"
+                style="@style/PinTheme"
+                android:text="6"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="218dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/pin7"
+                style="@style/PinTheme"
+                android:text="7"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+            <Button
+                android:id="@+id/pin8"
+                style="@style/PinTheme"
+                android:text="8"
+                tools:layout_editor_absoluteX="211dp"
+                tools:layout_editor_absoluteY="478dp" />
+
+            <Button
+                android:id="@+id/pin9"
+                style="@style/PinTheme"
+                android:text="9"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="218dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/pinFgp"
+                style="@style/DeletePinTheme"
+                android:tint="@color/green"
+                app:srcCompat="?android:attr/fingerprintAuthDrawable"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+            <Button
+                android:id="@+id/pin0"
+                style="@style/PinTheme"
+                android:text="0"
+                tools:layout_editor_absoluteX="211dp"
+                tools:layout_editor_absoluteY="478dp" />
+
+            <ImageView
+                android:id="@+id/del"
+                style="@style/DeletePinTheme"
+                android:tint="@color/gray_400"
+                app:srcCompat="@drawable/ic_delete_text"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="218dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/dimen_width_full_logo"
+        android:layout_height="@dimen/dimen_height_full_logo"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kmids_full_ogo" />
+
+    <TextView
+        android:id="@+id/tvTitle_input_pin"
+        style="@style/FontPrimary24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_title_lock_pin"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="@dimen/dimen_size_ic_close"
+        android:layout_height="@dimen/dimen_size_ic_close"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:tint="@color/gray_400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close_form" />
+
+    <TextView
+        android:id="@+id/btn_forgot"
+        style="@style/FontPrimaryVariant18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:inputType="textUri"
+        android:text="@string/text_forgot_pass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

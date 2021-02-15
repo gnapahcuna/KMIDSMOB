@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_width">500dp</dimen>
+
+    <dimen name="dimen_size_pass_pin">24dp</dimen>
+    <dimen name="dimen_margin_pass_pin">10dp</dimen>
+
+    <dimen name="dimen_size_ic_close">22dp</dimen>
+
+    <dimen name="dimen_size_logo">120dp</dimen>
+
+    <!-- size logo +80, +60 -->
+    <dimen name="dimen_width_full_logo">400dp</dimen>
+    <dimen name="dimen_height_full_logo">160dp</dimen>
+
+    <dimen name="dimen_height_card">350dp</dimen>
+
+    <dimen name="dimen_corner_button">16dp</dimen>
+    <!-- button width size +80 -->
+    <dimen name="dimen_width_button">180dp</dimen>
+    <dimen name="dimen_height_button">52dp</dimen>
+
+    <dimen name="dimen_size_pin">100dp</dimen>
+    <dimen name="dimen_margin_pin">14dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dimen_width_line">250dp</dimen>
+
+    <dimen name="dimen_line_dialog_width">360dp</dimen>
+    <dimen name="dimen_padding_dialog">26dp</dimen>
+    <dimen name="dimen_button_dialog_width">240dp</dimen>
+    <dimen name="dimen_button_dialog_height">64dp</dimen>
+
+    <dimen name="dimen_bottom_navigation_size">80dp</dimen>
+
+    <dimen name="dimen_time_line_width_size">22dp</dimen>
+    <dimen name="dimen_time_line_mark_size">18dp</dimen>
+    <dimen name="dimen_time_line_iamge_size">60dp</dimen>
+
+    <dimen name="dimen_font_size_pin">22sp</dimen>
+
+    <dimen name="dimen_raduis_card_bus">8dp</dimen>
+    <dimen name="dimen_padding_card_bus">16dp</dimen>
+    <dimen name="dimen_margin_card_bus">4dp</dimen>
+    <dimen name="dimen__size_icon_card_bus">120dp</dimen>
+    <dimen name="dimen_size_card_bus">280dp</dimen>
+    <dimen name="dimen_size_icon_refresh">42dp</dimen>
+
+    <!-- font size +4 -->
+    <dimen name="dimen_font_size_18">22sp</dimen>
+    <dimen name="dimen_font_size_16">20sp</dimen>
+    <dimen name="dimen_font_size_14">18sp</dimen>
+    <dimen name="dimen_font_size_24">28sp</dimen>
+</resources>

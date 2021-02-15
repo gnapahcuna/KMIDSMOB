@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_margin_card_bus"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/dimen_raduis_card_bus"
+    app:contentPadding="@dimen/dimen_padding_card_bus"
+    tools:context=".view.ui.home.bus.BusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvChildName"
+            style="@style/FontPrimary18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="นาย อนุชา นักผล" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/view_bg_status"
+                android:layout_width="@dimen/dimen_size_card_bus"
+                android:layout_height="@dimen/dimen_size_card_bus"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/round_ripple_bus_status_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="@dimen/dimen__size_icon_card_bus"
+                android:layout_height="@dimen/dimen__size_icon_card_bus"
+                android:src="@drawable/school_bus_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/view_bg_status"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view_bg_status" />
+
+            <ImageView
+                android:id="@+id/img_refresh"
+                android:layout_width="@dimen/dimen_size_icon_refresh"
+                android:layout_height="@dimen/dimen_size_icon_refresh"
+                android:src="@drawable/refresh_icon"
+                android:tint="@color/teal_200"
+                app:layout_constraintEnd_toEndOf="@+id/view_bg_status"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+            <TextView
+                android:id="@+id/tv_status_name"
+                style="@style/FontPrimary18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="16dp"
+                android:text="รอขึ้นรถ"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view_bg_status" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
